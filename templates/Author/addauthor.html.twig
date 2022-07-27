@@ -1,0 +1,15 @@
+
+{% block body %}
+
+
+
+<a href="{{ path('author_index') }}"> <h1>Home</h1> </a>
+<h1>Добавление автора</h1>
+{{ form_start(formAuthor) }}
+    <div class="label">
+        {{ form_label(formAuthor.name) }}
+    </div>
+{{ form_row(formAuthor.name) }}
+{{ form_widget(formAuthor) }}
+{{ form_end(formAuthor) }}
+{% endblock %}
