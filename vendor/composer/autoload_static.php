@@ -679,7 +679,6 @@ class ComposerStaticInit67fcaa77118307989b88157a23470ad0
         'App\\Controller\\BookController' => __DIR__ . '/../..' . '/src/Controller/BookController.php',
         'App\\Entity\\Author' => __DIR__ . '/../..' . '/src/Entity/Author.php',
         'App\\Entity\\Book' => __DIR__ . '/../..' . '/src/Entity/Book.php',
-        'App\\Entity\\Group' => __DIR__ . '/../..' . '/src/Entity/Group.php',
         'App\\Entity\\SonataUserUser' => __DIR__ . '/../..' . '/src/Entity/SonataUserUser.php',
         'App\\Form\\AuthorType' => __DIR__ . '/../..' . '/src/Form/AuthorType.php',
         'App\\Form\\BookType' => __DIR__ . '/../..' . '/src/Form/BookType.php',

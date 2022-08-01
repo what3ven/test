@@ -12,7 +12,6 @@ return array(
     'App\\Controller\\BookController' => $baseDir . '/src/Controller/BookController.php',
     'App\\Entity\\Author' => $baseDir . '/src/Entity/Author.php',
     'App\\Entity\\Book' => $baseDir . '/src/Entity/Book.php',
-    'App\\Entity\\Group' => $baseDir . '/src/Entity/Group.php',
     'App\\Entity\\SonataUserUser' => $baseDir . '/src/Entity/SonataUserUser.php',
     'App\\Form\\AuthorType' => $baseDir . '/src/Form/AuthorType.php',
     'App\\Form\\BookType' => $baseDir . '/src/Form/BookType.php',

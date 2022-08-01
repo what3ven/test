@@ -27,7 +27,7 @@ final class BookAdmin extends AbstractAdmin
             ->add('image', FileType::class)
             ->add('PublicationDate', DateType::class,['required' => true
             ] )
-            ->add('authors', EntityType::class, ['class' => Author::class, 'choice_label'=> 'title',
+            ->add('authors', EntityType::class, ['class' => Author::class, 'choice_label'=> 'name',
                 'mapped' => false,
                 'multiple' => false]);
     }
